@@ -12,7 +12,7 @@ def run():
         examples = yaml.safe_load(file)
 
     inputs = {
-        'game' :  examples['example3_snake']
+        'game' :  examples['example2_pacman']
     }
     game= GameBuilderCrew().crew().kickoff(inputs=inputs)
 
